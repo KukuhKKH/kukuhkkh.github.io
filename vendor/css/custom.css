@@ -1,0 +1,40 @@
+.center-text{ text-align: center; }
+
+/* ---------------------------------
+8. QUOTO SECTION
+--------------------------------- */
+
+.quoto-section{ padding: 80px 0; position: relative; background-size: cover; 
+    z-index: 1; background-image: url(../../img/slider-3-1920x1080.jpg); color: #fff; }
+
+.quoto-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
+    right: 0; background: rgba(0,0,0, .8); }
+    
+.quoto-section .icon{ margin-bottom: 20px; height: 40px; width: 40px; line-height: 40px; 
+    border-radius: 30px; background: #CC147F; color: #fff; }
+
+
+/* ---------------------------------
+5. BTN SECTION
+--------------------------------- */
+
+.btn-section{ padding-top: 100px; }
+
+.btn{ margin: 0 10px 10px; padding: 12px 30px; border-radius: 5px; }
+
+.btn-bg-pink{ border: 1px solid #CC147F; background: #CC147F; color: #fff; }
+
+.btn-bg-purple{ border: 1px solid #28023D; background: #28023D; color: #fff; }
+
+.btn-border-purple{ border: 1px solid #28023D; color: #222; }
+
+.btn-color-pink{ border: 1px solid #28023D; background: #28023D; color: #CC147F; }
+
+
+.btn-bg-pink:hover{ background: none; color: #111; }
+
+.btn-bg-purple:hover{ background: none; color: #111; }
+
+.btn-border-purple:hover{ background: #28023D; color: #fff; }
+
+.btn-color-pink:hover{ background: none; color: #111; }
