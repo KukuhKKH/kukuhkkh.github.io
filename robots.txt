@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kukuhkkh.github.io/sitemap-index.xml
+
